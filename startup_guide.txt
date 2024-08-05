@@ -1,0 +1,2 @@
+1. start the socket server- cd socket_server, npm run start
+2. start the main server- open new terminal, npm run dev
