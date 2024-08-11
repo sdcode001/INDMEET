@@ -3,7 +3,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useUser } from '@clerk/nextjs';
 import  {io}  from 'socket.io-client'
 
-const socket = io('http://localhost:5000');
+//for locally use http://localhost:5000
+const socket = io('https://indmeet-chat-server.onrender.com'); 
 
 type ChatMessage = {
   roomId: string;
