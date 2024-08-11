@@ -57,7 +57,7 @@ const MeetingRoom = ({meetingId}) => {
           <CallLayout />
         </div>
 
-        {/*View Participants List*/}
+        {/* View Participants List  */}
         <div
           className={cn('h-[calc(100vh-86px)] hidden ml-2', {
             'show-block': showParticipants
@@ -67,7 +67,7 @@ const MeetingRoom = ({meetingId}) => {
         </div>
 
 
-        {/*Chat Box*/}
+        {/* Chat Box  */}
         <div
           className={cn('h-[calc(100vh-86px)] hidden ml-2', {
             'show-block': showChatBox
@@ -78,7 +78,7 @@ const MeetingRoom = ({meetingId}) => {
 
 
       </div>
-      {/* video layout and call controls */}
+      {/* video layout and call controls  */}
       <div className="fixed bottom-0 flex w-full items-center justify-center gap-5">
         <CallControls onLeave={() => router.push(`/`)} />
 
