@@ -25,7 +25,7 @@ import ChatBox from './ChatBox';
 
 type CallLayoutType = 'grid' | 'speaker-left' | 'speaker-right';
 
-const MeetingRoom = ({meetingId}) => {
+const MeetingRoom = ({ meetingId }: { meetingId: string }) => {
   const searchParams = useSearchParams();
   const isPersonalRoom = !!searchParams.get('personal');
   const router = useRouter();
